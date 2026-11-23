@@ -29,7 +29,7 @@ def checknm(e):
     details = non_metals.get(element, ('Element not found','',''))
     #I think this one checks if the element in the input box is a valid key in the dictionary to grab its value, otherwise it gets the other value which is the tuple
 
-    document.getElementById('result').innterHTML = f"""
+    document.getElementById('result').innerHTML = f"""
     <b>Symbol</b> {element} <br>
     <b>Element</b> {details[0]} <br>
     <b>Atomic Number</b> {details[1]} <br>
